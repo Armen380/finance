@@ -1,7 +1,0 @@
-.costs{
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    height: 100px;
-    max-width: 1250px;
-}
