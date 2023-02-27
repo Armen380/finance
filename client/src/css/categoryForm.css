@@ -1,0 +1,29 @@
+.categoryForm{
+    display: flex;
+}
+.categoryForm input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(63, 62, 62, 0.55);
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.categoryForm button{
+    width: 180px;
+    height: 45px;
+    background-color: #4261cc;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.categoryForm button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #4261cc;
+    border: 1px solid #4261cc;
+    transition: 0.4s;
+}

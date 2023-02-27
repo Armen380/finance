@@ -1,0 +1,40 @@
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    margin: 0 15px;
+}
+.header button{
+    width: 80px;
+    height: 40px;
+    background-color: #4261cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.header button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #4261cc;
+    border: 1px solid #4261cc;
+    transition: 0.4s;
+}

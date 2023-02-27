@@ -1,0 +1,24 @@
+.cart{
+    width: 250px;
+    height: 120px;
+    background-color: #5ba3f1;
+    margin-top: 12px;
+    margin-left: 20px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.cart:hover{
+    background-color: #2064c0;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.cart h2{
+    color: white;
+}
+.cart h3{
+    color: white;
+}
